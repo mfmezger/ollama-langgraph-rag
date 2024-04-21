@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "rag"
+version = "0.1.0"
+description = ""
+authors = ["Marc F. Mezger <marc.mezger@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+langgraph = "^0.0.38"
+loguru = "^0.7.2"
+python-dotenv = "^1.0.1"
+fastapi = "^0.110.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
